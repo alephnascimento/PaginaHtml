@@ -1,0 +1,99 @@
+* {
+    margin: 0.5;
+    padding: 0.5;
+}
+
+/*com # identificamos os ids e com . identificamos as classes*/
+#titulo {
+    font-size: monospace;
+    color: rgb(158, 158, 45);
+    margin-left: 10%;
+}
+
+#subtitulo {
+    font-size: monospace;
+    color: rgb(94, 94, 27);
+    margin-left: 10%;
+}
+
+#fieldset {
+    border: 0;
+}
+
+body {
+    background-color: rgb(228, 215, 215);
+    font-family: monospace;
+    font-size: 1em;
+    color: rgb(94, 94, 27);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input,
+select,
+textarea,
+button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: rgb(94, 94, 27);
+    display: block;
+}
+
+fielset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid rgb(150, 209, 206);
+    box-shadow: 2px 2px 2px rgb(150, 209, 206);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input :focus,
+.campo select :focus,
+.campo textarea :focus {
+    background: #e0e0f8;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: rgb(61, 61, 53);
+    border: 0;
+    margin-bottom: 1em;
+    color: rgb(150, 209, 206);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-50% -50%);
+}
+
+.botao:hover {
+    background: rgb(150, 209, 206);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#check {
+    display: inline-block;
+}
